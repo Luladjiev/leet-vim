@@ -19,7 +19,7 @@ Plug 'jreybert/vimagit'
 Plug 'airblade/vim-gitgutter'
 
 " File management
-Plug 'junegunn/fzf', { 'dir': '~/.local/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf', { 'dir': '~/.vim/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'pbogut/fzf-mru.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -65,7 +65,7 @@ endif
 
 " Persistent Undo
 if has("persistent_undo")
-    set undodir=~/.local/share/nvim/undodir
+    set undodir=~/.vim/share/nvim/undodir
     set undofile
 endif
 
