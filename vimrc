@@ -165,6 +165,8 @@ let mapleader = "\<Space>"
 
 inoremap fd <Esc>
 
+inoremap <C-BS> <C-W>
+
 nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 
 nnoremap <silent> [q :cprev<CR>
