@@ -34,6 +34,10 @@ Plug 'easymotion/vim-easymotion'
 " Javascript
 Plug 'pangloss/vim-javascript'
 
+" Typescript
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
+
 call plug#end()
 
 " System
@@ -259,7 +263,8 @@ let g:ale_sign_warning = '·'
 let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 
 let g:ale_linters = {
-      \ 'javascript': ['eslint']
+      \ 'javascript': ['eslint'],
+      \ 'typescript': ['tslint']
       \ }
 
 " Git gutter
